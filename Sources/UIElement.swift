@@ -1,3 +1,6 @@
+import Cocoa
+import Foundation
+
 /// Holds and interacts with any accessibility element.
 ///
 /// This class wraps every operation that operates on AXUIElements.

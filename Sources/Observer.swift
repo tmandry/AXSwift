@@ -1,3 +1,7 @@
+import Cocoa
+import Foundation
+import Darwin
+
 /// Observers watch for events on an application's UI elements.
 ///
 /// Events are received as part of the application's default run loop.

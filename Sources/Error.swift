@@ -1,3 +1,5 @@
+import Foundation
+
 extension AXError: Swift.Error { }
 
 // For some reason values don't get described in this enum, so we have to do it manually.

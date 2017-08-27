@@ -1,3 +1,5 @@
+import Cocoa
+
 /// A `UIElement` for an application.
 public final class Application: UIElement {
   // Creates a UIElement for the given process ID.
