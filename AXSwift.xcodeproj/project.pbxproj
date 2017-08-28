@@ -12,7 +12,6 @@
 		2F018E151F537C5900A4319A /* AXSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E0C1F537C5900A4319A /* AXSwift.swift */; };
 		2F018E161F537C5A00A4319A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E0D1F537C5900A4319A /* Constants.swift */; };
 		2F018E171F537C5A00A4319A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E0E1F537C5900A4319A /* Error.swift */; };
-		2F018E181F537C5A00A4319A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F018E0F1F537C5900A4319A /* Info.plist */; };
 		2F018E191F537C5A00A4319A /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E101F537C5900A4319A /* Observer.swift */; };
 		2F018E1A1F537C5A00A4319A /* SystemWideElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E111F537C5900A4319A /* SystemWideElement.swift */; };
 		2F018E1B1F537C5A00A4319A /* UIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E121F537C5900A4319A /* UIElement.swift */; };
@@ -44,13 +43,13 @@
 		2F018E101F537C5900A4319A /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Observer.swift; path = ../Sources/Observer.swift; sourceTree = "<group>"; };
 		2F018E111F537C5900A4319A /* SystemWideElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SystemWideElement.swift; path = ../Sources/SystemWideElement.swift; sourceTree = "<group>"; };
 		2F018E121F537C5900A4319A /* UIElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIElement.swift; path = ../Sources/UIElement.swift; sourceTree = "<group>"; };
-		2F32C6841BD42D5000AD4419 /* AXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXSwift.framework; path = /Users/tyler/code/AXSwift/build/Debug/AXSwift.framework; sourceTree = "<absolute>"; };
-		2F86CE981BD49958007E8C29 /* AXSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftExample.app; path = /Users/tyler/code/AXSwift/build/Debug/AXSwiftExample.app; sourceTree = "<absolute>"; };
+		2F3CE41A1F539CB30089DE2A /* AXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXSwift.framework; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwift.framework; sourceTree = "<absolute>"; };
+		2F3CE41B1F539CB30089DE2A /* AXSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftExample.app; sourceTree = "<absolute>"; };
+		2F3CE41C1F539CB30089DE2A /* AXSwiftObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftObserverExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftObserverExample.app; sourceTree = "<absolute>"; };
 		2F86CE9A1BD49958007E8C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F86CE9C1BD49958007E8C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F86CEA11BD49958007E8C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F86CEA51BD4999F007E8C29 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		2F86CEAD1BD5621F007E8C29 /* AXSwiftObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftObserverExample.app; path = /Users/tyler/code/AXSwift/build/Debug/AXSwiftObserverExample.app; sourceTree = "<absolute>"; };
 		2F86CEAF1BD5621F007E8C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F86CEB11BD5621F007E8C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F86CEB61BD5621F007E8C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,7 +161,7 @@
 			);
 			name = AXSwift;
 			productName = AXSwift;
-			productReference = 2F32C6841BD42D5000AD4419 /* AXSwift.framework */;
+			productReference = 2F3CE41A1F539CB30089DE2A /* AXSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2F86CE971BD49958007E8C29 /* AXSwiftExample */ = {
@@ -179,7 +178,7 @@
 			);
 			name = AXSwiftExample;
 			productName = AXSwiftExample;
-			productReference = 2F86CE981BD49958007E8C29 /* AXSwiftExample.app */;
+			productReference = 2F3CE41B1F539CB30089DE2A /* AXSwiftExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2F86CEAC1BD5621F007E8C29 /* AXSwiftObserverExample */ = {
@@ -197,7 +196,7 @@
 			);
 			name = AXSwiftObserverExample;
 			productName = AXSwiftObserverExample;
-			productReference = 2F86CEAD1BD5621F007E8C29 /* AXSwiftObserverExample.app */;
+			productReference = 2F3CE41C1F539CB30089DE2A /* AXSwiftObserverExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F018E181F537C5A00A4319A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
