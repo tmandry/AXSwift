@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
 
   s.osx.deployment_target = '10.10'
 
-  s.source_files = 'AXSwift/*'
+  s.source_files = 'Sources/*'
 
-  s.public_header_files = 'AXSwift/*.h'
+  s.public_header_files = 'Sources/*.h'
   s.frameworks = 'Cocoa'
 end

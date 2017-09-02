@@ -43,9 +43,9 @@
 		2F018E101F537C5900A4319A /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Observer.swift; path = ../Sources/Observer.swift; sourceTree = "<group>"; };
 		2F018E111F537C5900A4319A /* SystemWideElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SystemWideElement.swift; path = ../Sources/SystemWideElement.swift; sourceTree = "<group>"; };
 		2F018E121F537C5900A4319A /* UIElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIElement.swift; path = ../Sources/UIElement.swift; sourceTree = "<group>"; };
-		2F3CE41A1F539CB30089DE2A /* AXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXSwift.framework; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwift.framework; sourceTree = "<absolute>"; };
-		2F3CE41B1F539CB30089DE2A /* AXSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftExample.app; sourceTree = "<absolute>"; };
-		2F3CE41C1F539CB30089DE2A /* AXSwiftObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftObserverExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftObserverExample.app; sourceTree = "<absolute>"; };
+		2F3CE4201F5B2F440089DE2A /* AXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXSwift.framework; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwift.framework; sourceTree = "<absolute>"; };
+		2F3CE4211F5B2F440089DE2A /* AXSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftExample.app; sourceTree = "<absolute>"; };
+		2F3CE4221F5B2F440089DE2A /* AXSwiftObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftObserverExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftObserverExample.app; sourceTree = "<absolute>"; };
 		2F86CE9A1BD49958007E8C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F86CE9C1BD49958007E8C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F86CEA11BD49958007E8C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 			);
 			name = AXSwift;
 			productName = AXSwift;
-			productReference = 2F3CE41A1F539CB30089DE2A /* AXSwift.framework */;
+			productReference = 2F3CE4201F5B2F440089DE2A /* AXSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2F86CE971BD49958007E8C29 /* AXSwiftExample */ = {
@@ -178,7 +178,7 @@
 			);
 			name = AXSwiftExample;
 			productName = AXSwiftExample;
-			productReference = 2F3CE41B1F539CB30089DE2A /* AXSwiftExample.app */;
+			productReference = 2F3CE4211F5B2F440089DE2A /* AXSwiftExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2F86CEAC1BD5621F007E8C29 /* AXSwiftObserverExample */ = {
@@ -196,7 +196,7 @@
 			);
 			name = AXSwiftObserverExample;
 			productName = AXSwiftObserverExample;
-			productReference = 2F3CE41C1F539CB30089DE2A /* AXSwiftObserverExample.app */;
+			productReference = 2F3CE4221F5B2F440089DE2A /* AXSwiftObserverExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
