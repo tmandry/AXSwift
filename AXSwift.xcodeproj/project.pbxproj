@@ -7,14 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F018E131F537C5900A4319A /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E0A1F537C5900A4319A /* Application.swift */; };
-		2F018E141F537C5900A4319A /* AXSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F018E0B1F537C5900A4319A /* AXSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F018E151F537C5900A4319A /* AXSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E0C1F537C5900A4319A /* AXSwift.swift */; };
-		2F018E161F537C5A00A4319A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E0D1F537C5900A4319A /* Constants.swift */; };
-		2F018E171F537C5A00A4319A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E0E1F537C5900A4319A /* Error.swift */; };
-		2F018E191F537C5A00A4319A /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E101F537C5900A4319A /* Observer.swift */; };
-		2F018E1A1F537C5A00A4319A /* SystemWideElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E111F537C5900A4319A /* SystemWideElement.swift */; };
-		2F018E1B1F537C5A00A4319A /* UIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F018E121F537C5900A4319A /* UIElement.swift */; };
+		2F3CE4331F5B62910089DE2A /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 2F3CE4321F5B62910089DE2A /* Sources */; };
 		2F86CE9B1BD49958007E8C29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F86CE9A1BD49958007E8C29 /* AppDelegate.swift */; };
 		2F86CE9D1BD49958007E8C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F86CE9C1BD49958007E8C29 /* Assets.xcassets */; };
 		2F86CEA61BD4999F007E8C29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F86CEA51BD4999F007E8C29 /* main.swift */; };
@@ -34,18 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F018E0A1F537C5900A4319A /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Application.swift; path = ../Sources/Application.swift; sourceTree = "<group>"; };
-		2F018E0B1F537C5900A4319A /* AXSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AXSwift.h; path = ../Sources/AXSwift.h; sourceTree = "<group>"; };
-		2F018E0C1F537C5900A4319A /* AXSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AXSwift.swift; path = ../Sources/AXSwift.swift; sourceTree = "<group>"; };
-		2F018E0D1F537C5900A4319A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Sources/Constants.swift; sourceTree = "<group>"; };
-		2F018E0E1F537C5900A4319A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = ../Sources/Error.swift; sourceTree = "<group>"; };
-		2F018E0F1F537C5900A4319A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Sources/Info.plist; sourceTree = "<group>"; };
-		2F018E101F537C5900A4319A /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Observer.swift; path = ../Sources/Observer.swift; sourceTree = "<group>"; };
-		2F018E111F537C5900A4319A /* SystemWideElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SystemWideElement.swift; path = ../Sources/SystemWideElement.swift; sourceTree = "<group>"; };
-		2F018E121F537C5900A4319A /* UIElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIElement.swift; path = ../Sources/UIElement.swift; sourceTree = "<group>"; };
-		2F3CE4201F5B2F440089DE2A /* AXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXSwift.framework; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwift.framework; sourceTree = "<absolute>"; };
-		2F3CE4211F5B2F440089DE2A /* AXSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftExample.app; sourceTree = "<absolute>"; };
-		2F3CE4221F5B2F440089DE2A /* AXSwiftObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftObserverExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftObserverExample.app; sourceTree = "<absolute>"; };
+		2F3CE42D1F5B58B30089DE2A /* AXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3CE42E1F5B58B30089DE2A /* AXSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3CE42F1F5B58B30089DE2A /* AXSwiftObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXSwiftObserverExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3CE4321F5B62910089DE2A /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		2F86CE9A1BD49958007E8C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F86CE9C1BD49958007E8C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F86CEA11BD49958007E8C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +39,6 @@
 		2F86CEB11BD5621F007E8C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F86CEB61BD5621F007E8C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F86CEBA1BD56250007E8C29 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		2F86CEE01BD6B33C007E8C29 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,30 +69,16 @@
 		2F32C67A1BD42D5000AD4419 = {
 			isa = PBXGroup;
 			children = (
-				2F32C6861BD42D5000AD4419 /* AXSwift */,
+				2F3CE4321F5B62910089DE2A /* Sources */,
 				2F86CE991BD49958007E8C29 /* AXSwiftExample */,
 				2F86CEAE1BD5621F007E8C29 /* AXSwiftObserverExample */,
+				2F3CE42D1F5B58B30089DE2A /* AXSwift.framework */,
+				2F3CE42E1F5B58B30089DE2A /* AXSwiftExample.app */,
+				2F3CE42F1F5B58B30089DE2A /* AXSwiftObserverExample.app */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
 			tabWidth = 2;
-		};
-		2F32C6861BD42D5000AD4419 /* AXSwift */ = {
-			isa = PBXGroup;
-			children = (
-				2F018E0A1F537C5900A4319A /* Application.swift */,
-				2F018E0B1F537C5900A4319A /* AXSwift.h */,
-				2F018E0C1F537C5900A4319A /* AXSwift.swift */,
-				2F018E0D1F537C5900A4319A /* Constants.swift */,
-				2F018E0E1F537C5900A4319A /* Error.swift */,
-				2F018E0F1F537C5900A4319A /* Info.plist */,
-				2F018E101F537C5900A4319A /* Observer.swift */,
-				2F018E111F537C5900A4319A /* SystemWideElement.swift */,
-				2F018E121F537C5900A4319A /* UIElement.swift */,
-				2F86CEE01BD6B33C007E8C29 /* README.md */,
-			);
-			path = AXSwift;
-			sourceTree = "<group>";
 		};
 		2F86CE991BD49958007E8C29 /* AXSwiftExample */ = {
 			isa = PBXGroup;
@@ -139,7 +109,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F018E141F537C5900A4319A /* AXSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +130,7 @@
 			);
 			name = AXSwift;
 			productName = AXSwift;
-			productReference = 2F3CE4201F5B2F440089DE2A /* AXSwift.framework */;
+			productReference = 2F3CE42D1F5B58B30089DE2A /* AXSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2F86CE971BD49958007E8C29 /* AXSwiftExample */ = {
@@ -178,7 +147,7 @@
 			);
 			name = AXSwiftExample;
 			productName = AXSwiftExample;
-			productReference = 2F3CE4211F5B2F440089DE2A /* AXSwiftExample.app */;
+			productReference = 2F3CE42E1F5B58B30089DE2A /* AXSwiftExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2F86CEAC1BD5621F007E8C29 /* AXSwiftObserverExample */ = {
@@ -196,7 +165,7 @@
 			);
 			name = AXSwiftObserverExample;
 			productName = AXSwiftObserverExample;
-			productReference = 2F3CE4221F5B2F440089DE2A /* AXSwiftObserverExample.app */;
+			productReference = 2F3CE42F1F5B58B30089DE2A /* AXSwiftObserverExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -248,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3CE4331F5B62910089DE2A /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,13 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F018E131F537C5900A4319A /* Application.swift in Sources */,
-				2F018E1A1F537C5A00A4319A /* SystemWideElement.swift in Sources */,
-				2F018E151F537C5900A4319A /* AXSwift.swift in Sources */,
-				2F018E191F537C5A00A4319A /* Observer.swift in Sources */,
-				2F018E171F537C5A00A4319A /* Error.swift in Sources */,
-				2F018E1B1F537C5A00A4319A /* UIElement.swift in Sources */,
-				2F018E161F537C5A00A4319A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
