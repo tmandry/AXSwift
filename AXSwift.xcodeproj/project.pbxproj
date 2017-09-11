@@ -76,9 +76,10 @@
 				2F3CE42E1F5B58B30089DE2A /* AXSwiftExample.app */,
 				2F3CE42F1F5B58B30089DE2A /* AXSwiftObserverExample.app */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
+			usesTabs = 0;
 		};
 		2F86CE991BD49958007E8C29 /* AXSwiftExample */ = {
 			isa = PBXGroup;

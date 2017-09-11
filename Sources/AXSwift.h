@@ -14,6 +14,5 @@ FOUNDATION_EXPORT double AXSwiftVersionNumber;
 //! Project version string for AXSwift.
 FOUNDATION_EXPORT const unsigned char AXSwiftVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <AXSwift/PublicHeader.h>
-
-
+// In this header, you should import all the public headers of your framework using statements like
+// #import <AXSwift/PublicHeader.h>
