@@ -27,9 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F3CE42D1F5B58B30089DE2A /* AXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F3CE42E1F5B58B30089DE2A /* AXSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F3CE42F1F5B58B30089DE2A /* AXSwiftObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXSwiftObserverExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3CE42D1F5B58B30089DE2A /* AXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXSwift.framework; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwift.framework; sourceTree = "<absolute>"; };
+		2F3CE42E1F5B58B30089DE2A /* AXSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftExample.app; sourceTree = "<absolute>"; };
+		2F3CE42F1F5B58B30089DE2A /* AXSwiftObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AXSwiftObserverExample.app; path = /Users/tyler/code/Swindler/AXSwift/build/Debug/AXSwiftObserverExample.app; sourceTree = "<absolute>"; };
 		2F3CE4321F5B62910089DE2A /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		2F86CE9A1BD49958007E8C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F86CE9C1BD49958007E8C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,9 +72,6 @@
 				2F3CE4321F5B62910089DE2A /* Sources */,
 				2F86CE991BD49958007E8C29 /* AXSwiftExample */,
 				2F86CEAE1BD5621F007E8C29 /* AXSwiftObserverExample */,
-				2F3CE42D1F5B58B30089DE2A /* AXSwift.framework */,
-				2F3CE42E1F5B58B30089DE2A /* AXSwiftExample.app */,
-				2F3CE42F1F5B58B30089DE2A /* AXSwiftObserverExample.app */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
