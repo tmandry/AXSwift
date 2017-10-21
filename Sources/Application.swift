@@ -35,7 +35,7 @@ public final class Application: UIElement {
     /// Creates an `Application` for every running application with a UI.
     /// - returns: An array of `Application`s.
     public class func all() -> [Application] {
-        let runningApps = NSWorkspace.shared().runningApplications
+        let runningApps = NSWorkspace.shared.runningApplications
         return runningApps
             .filter({ $0.activationPolicy != .prohibited })
             .flatMap({ Application($0) })
@@ -44,7 +44,7 @@ public final class Application: UIElement {
     /// Creates an `Application` for every running instance of the given `bundleID`.
     /// - returns: A (potentially empty) array of `Application`s.
     public class func allForBundleID(_ bundleID: String) -> [Application] {
-        let runningApps = NSWorkspace.shared().runningApplications
+        let runningApps = NSWorkspace.shared.runningApplications
         return runningApps
             .filter({ $0.bundleIdentifier == bundleID })
             .flatMap({ Application($0) })
