@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AXSwift'
-  s.version          = '0.1.3'
+  s.version          = '0.2.0'
   s.summary          = 'Swift wrapper for Mac accessibility APIs'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/tmandry/AXSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tmandry' => 'tmandry@gmail.com' }
+  s.author           = { 'Tyler Mandry' => 'tmandry@gmail.com' }
   s.source           = { :git => 'https://github.com/tmandry/AXSwift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/tmandry'
 
