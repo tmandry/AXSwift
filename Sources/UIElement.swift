@@ -178,7 +178,7 @@ open class UIElement {
             throw error
         }
 
-        return (unpackAXValue(value!) as! T)
+        return (unpackAXValue(value!) as? T)
     }
 
     /// Sets the value of `attribute` to `value`.
