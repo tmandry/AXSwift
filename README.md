@@ -1,6 +1,6 @@
 # AXSwift
 
-AXSwift is a Swift wrapper for OS X's C-based accessibility client APIs. Working with these APIs is
+AXSwift is a Swift wrapper for macOS's C-based accessibility client APIs. Working with these APIs is
 error-prone and a huge pain, so AXSwift makes everything easier:
 
 - Modern API that's 100% Swift
@@ -11,6 +11,25 @@ error-prone and a huge pain, so AXSwift makes everything easier:
 This framework is intended as a basic wrapper, and doesn't keep any state or do any "magic".
 That's up to you!
 
+## Using AXSwift
+
+### Carthage
+In your Cartfile:
+```
+github "tmandry/AXSwift" ~> 0.2
+```
+
+### CocoaPods
+In your Podfile:
+```
+pod 'AXSwift', '~> 0.2'
+```
+
+See the source of [AXSwiftExample](https://github.com/tmandry/AXSwift/blob/master/AXSwiftExample/AppDelegate.swift)
+and [AXSwiftObserverExample](https://github.com/tmandry/AXSwift/blob/master/AXSwiftObserverExample/AppDelegate.swift)
+for an example of the API.
+
 ## Related Projects
 
-[Swindler](https://github.com/tmandry/Swindler), a framework for building macOS window managers in Swift, is built on top of AXSwift.
+[Swindler](https://github.com/tmandry/Swindler), a framework for building macOS window managers in Swift,
+is built on top of AXSwift.
