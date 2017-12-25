@@ -8,5 +8,9 @@ error-prone and a huge pain, so AXSwift makes everything easier:
 - Complete coverage of the underlying C API
 - Better documentation than Apple's, which is pretty poor
 
-This framework is intended as a basic wrapper and doesn't keep any state or do any "magic".
+This framework is intended as a basic wrapper, and doesn't keep any state or do any "magic".
 That's up to you!
+
+## Related Projects
+
+[Swindler](https://github.com/tmandry/Swindler), a framework for building macOS window managers in Swift, is built on top of AXSwift.
