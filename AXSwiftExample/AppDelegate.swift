@@ -6,12 +6,12 @@ class ApplicationDelegate: NSObject, NSApplicationDelegate {
         // Check that we have permission
         guard UIElement.isProcessTrusted(withPrompt: true) else {
             NSLog("No accessibility API permission, exiting")
-            NSRunningApplication.current().terminate()
+            NSRunningApplication.current.terminate()
             return
         }
 
         // Get Active Application
-        if let application = NSWorkspace.shared().frontmostApplication {
+        if let application = NSWorkspace.shared.frontmostApplication {
             NSLog("localizedName: \(String(describing: application.localizedName)), processIdentifier: \(application.processIdentifier)")
             let uiApp = Application(application)!
             NSLog("windows: \(String(describing: try! uiApp.windows()))")
@@ -52,6 +52,6 @@ class ApplicationDelegate: NSObject, NSApplicationDelegate {
         // NSLog("windows: \(try! sys.windows())")
         NSLog("attributes: \(try! systemWideElement.attributes())")
 
-        NSRunningApplication.current().terminate()
+        NSRunningApplication.current.terminate()
     }
 }
