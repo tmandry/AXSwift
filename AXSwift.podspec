@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AXSwift'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Swift wrapper for Mac accessibility APIs'
 
   s.description      = <<-DESC
