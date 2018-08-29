@@ -13,6 +13,9 @@ That's up to you!
 
 ## Using AXSwift
 
+Swift package manager (SPM) is not supported, because it cannot build libraries
+and applications that depend on Cocoa.
+
 ### Carthage
 In your Cartfile:
 ```
