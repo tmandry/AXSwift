@@ -81,7 +81,7 @@ open class UIElement {
         for attr in attrs where Attribute(rawValue: attr) == nil {
             print("Unrecognized attribute: \(attr)")
         }
-        return attrs.flatMap({ Attribute(rawValue: $0) })
+        return attrs.compactMap({ Attribute(rawValue: $0) })
     }
 
     // This version is named differently so the caller doesn't have to specify the return type when
@@ -365,7 +365,7 @@ open class UIElement {
     /// Parameterized attributes are attributes that require parameters to retrieve. For example,
     /// the cell contents of a spreadsheet might require the row and column of the cell you want.
     open func parameterizedAttributes() throws -> [Attribute] {
-        return try parameterizedAttributesAsStrings().flatMap({ Attribute(rawValue: $0) })
+        return try parameterizedAttributesAsStrings().compactMap({ Attribute(rawValue: $0) })
     }
 
     open func parameterizedAttributesAsStrings() throws -> [String] {
@@ -478,7 +478,7 @@ open class UIElement {
 
     /// Returns a list of actions that can be performed on the element.
     open func actions() throws -> [Action] {
-        return try actionsAsStrings().flatMap({ Action(rawValue: $0) })
+        return try actionsAsStrings().compactMap({ Action(rawValue: $0) })
     }
 
     open func actionsAsStrings() throws -> [String] {

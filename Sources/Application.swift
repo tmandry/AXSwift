@@ -38,7 +38,7 @@ public final class Application: UIElement {
         let runningApps = NSWorkspace.shared.runningApplications
         return runningApps
             .filter({ $0.activationPolicy != .prohibited })
-            .flatMap({ Application($0) })
+            .compactMap({ Application($0) })
     }
 
     /// Creates an `Application` for every running instance of the given `bundleID`.
@@ -47,7 +47,7 @@ public final class Application: UIElement {
         let runningApps = NSWorkspace.shared.runningApplications
         return runningApps
             .filter({ $0.bundleIdentifier == bundleID })
-            .flatMap({ Application($0) })
+            .compactMap({ Application($0) })
     }
 
     /// Creates an `Observer` on this application, if it is still alive.
