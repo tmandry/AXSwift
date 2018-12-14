@@ -1,6 +1,6 @@
 # AXSwift
 
-[![Version](https://cocoapod-badges.herokuapp.com/v/AXSwift/badge.svg)](http://cocoadocs.org/pods/AXSwift)
+[![Version](https://cocoapod-badges.herokuapp.com/v/AXSwift/badge.svg)](https://cocoapods.org/pods/AXSwift)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 AXSwift is a Swift wrapper for macOS's C-based accessibility client APIs. Working with these APIs is
