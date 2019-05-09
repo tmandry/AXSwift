@@ -16,8 +16,11 @@ That's up to you!
 
 ## Using AXSwift
 
-Swift package manager (SPM) is not supported, because it cannot build libraries
-and applications that depend on Cocoa.
+### SPM
+In your Package.swift:
+```
+.package(url: "https://github.com/tmandry/AXSwift", from: 0.2),
+```
 
 ### Carthage
 In your Cartfile:
