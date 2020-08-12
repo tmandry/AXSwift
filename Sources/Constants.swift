@@ -89,6 +89,7 @@ public enum Role: String {
     case menuBar            = "AXMenuBar"
     case menu               = "AXMenu"
     case menuItem           = "AXMenuItem"
+    case menuBarItem        = "AXMenuBarItem"
     case column             = "AXColumn"
     case row                = "AXRow"
     case toolbar            = "AXToolbar"
