@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AXSwift'
-  s.version          = '0.2.3'
+  s.version          = '0.3.0'
   s.summary          = 'Swift wrapper for Mac accessibility APIs'
 
   s.description      = <<-DESC
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/tmandry'
 
   s.osx.deployment_target = '10.10'
+  s.swift_version = '5.0'
 
   s.source_files = 'Sources/*.{swift,h}'
 
