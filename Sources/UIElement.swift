@@ -449,6 +449,8 @@ open class UIElement {
                 return result
             case .illegal:
                 return value
+            @unknown default:
+                return value
             }
         default:
             return value

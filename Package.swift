@@ -7,13 +7,17 @@ let package = Package(
     products: [
         .library(
             name: "AXSwift",
-            targets: ["AXSwift"]
-        ),
+            targets: ["AXSwift"]),
     ],
     targets: [
         .target(
             name: "AXSwift",
-            path: "Sources"
-        )
+            path: "Sources"),
+        .target(name: "AXSwiftExample",
+            dependencies: ["AXSwift"],
+            path: "AXSwiftExample"),
+        .target(name: "AXSwiftObserverExample",
+            dependencies: ["AXSwift"],
+            path: "AXSwiftObserverExample"),
     ]
 )

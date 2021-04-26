@@ -25,7 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             } else {
                 elementDesc = "\(element)"
             }
-            print("\(event) on \(elementDesc); info: \(info ?? [:])")
+            print("\(event) on \(String(describing: elementDesc)); info: \(info ?? [:])")
 
             // Watch events on new windows
             if event == .windowCreated {

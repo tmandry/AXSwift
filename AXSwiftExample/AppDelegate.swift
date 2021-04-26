@@ -40,8 +40,8 @@ class ApplicationDelegate: NSObject, NSApplicationDelegate {
         if let window = try! app.windows()?.first {
             do {
                 try window.setAttribute(.title, value: "my title")
-                let newTitle: String = try! window.attribute(.title)!
-                NSLog("title set; result = \(newTitle)")
+                let newTitle: String? = try! window.attribute(.title)
+                NSLog("title set; result = \(newTitle ?? "<none>")")
             } catch {
                 NSLog("error caught trying to set title of window: \(error)")
             }
