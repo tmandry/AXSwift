@@ -5,6 +5,7 @@ public enum AXNotification: String {
     case mainWindowChanged       = "AXMainWindowChanged"
     case focusedWindowChanged    = "AXFocusedWindowChanged"
     case focusedUIElementChanged = "AXFocusedUIElementChanged"
+    case focusedTabChanged       = "AXFocusedTabChanged"
 
     // Application notifications
     case applicationActivated    = "AXApplicationActivated"
@@ -43,6 +44,7 @@ public enum AXNotification: String {
     case selectedChildrenChanged = "AXSelectedChildrenChanged"
     case selectedRowsChanged     = "AXSelectedRowsChanged"
     case selectedColumnsChanged  = "AXSelectedColumnsChanged"
+    case loadComplete            = "AXLoadComplete"
 
     case rowExpanded             = "AXRowExpanded"
     case rowCollapsed            = "AXRowCollapsed"
