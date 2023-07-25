@@ -17,7 +17,7 @@ public final class Observer {
                                          _ info: [String: AnyObject]?) -> Void
 
     let pid: pid_t
-    let axObserver: AXObserver!
+    let axObserver: AXObserver?
     let callback: Callback?
     let callbackWithInfo: CallbackWithInfo?
 
@@ -71,10 +71,16 @@ public final class Observer {
     ///
     /// If the observer has already been started, this method does nothing.
     public func start() {
+        guard let axObserver else {
+            NSLog("\(#function) axObserver is nil")
+            return
+        }
+        
         CFRunLoopAddSource(
             RunLoop.current.getCFRunLoop(),
             AXObserverGetRunLoopSource(axObserver),
             CFRunLoopMode.defaultMode)
+        
     }
 
     /// Stops sending events to your callback until the next call to `start`.
@@ -84,6 +90,11 @@ public final class Observer {
     /// - important: Events will still be queued in the target process until the Observer is started
     ///              again or destroyed. If you don't want them, create a new Observer.
     public func stop() {
+        guard let axObserver else {
+            NSLog("\(#function) axObserver is nil")
+            return
+        }
+
         CFRunLoopRemoveSource(
             RunLoop.current.getCFRunLoop(),
             AXObserverGetRunLoopSource(axObserver),
@@ -104,7 +115,7 @@ public final class Observer {
                                 forElement element: UIElement) throws {
         let selfPtr = UnsafeMutableRawPointer(Unmanaged.passUnretained(self).toOpaque())
         let error = AXObserverAddNotification(
-            axObserver, element.element, notification.rawValue as CFString, selfPtr
+            axObserver!, element.element, notification.rawValue as CFString, selfPtr
         )
         guard error == .success || error == .notificationAlreadyRegistered else {
             throw error
@@ -122,7 +133,7 @@ public final class Observer {
     public func removeNotification(_ notification: AXNotification,
                                    forElement element: UIElement) throws {
         let error = AXObserverRemoveNotification(
-            axObserver, element.element, notification.rawValue as CFString
+            axObserver!, element.element, notification.rawValue as CFString
         )
         guard error == .success || error == .notificationNotRegistered else {
             throw error
